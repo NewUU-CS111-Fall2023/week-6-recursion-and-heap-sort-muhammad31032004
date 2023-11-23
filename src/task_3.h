@@ -14,5 +14,6 @@ int main() {
     cin >> n;
     cout << sum_of_digits(n);
 }
-//time complexity O(loga) or O(n)
-//a->input number, n->number of digits
+//time complexity: O(loga) or O(n)
+//a->input number
+//n->number of digits
