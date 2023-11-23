@@ -20,4 +20,4 @@ int main() {
     int len = word.length();
     palindrome_check(word, 0, len - 1);
 }
-// time complexity O(n)
+// time complexity: O(n)
