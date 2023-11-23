@@ -23,4 +23,4 @@ int main(){
     cin>>a;
     prime_check(a,n);
 }
-//time complexity: O(n) (worst case)
+//time complexity (worst case): O(n)
