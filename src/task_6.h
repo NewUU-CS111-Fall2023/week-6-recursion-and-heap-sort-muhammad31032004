@@ -31,4 +31,4 @@ int main() {
     cout << secondLargestElement << endl;
     return 0;
 }
-//time complexity O(n)
+//time complexity: O(n)
