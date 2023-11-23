@@ -17,4 +17,4 @@ int main() {
     opposite_order(a);
     return 0;
 }
-//time complexity O(logn)
+//time complexity: O(logn)
