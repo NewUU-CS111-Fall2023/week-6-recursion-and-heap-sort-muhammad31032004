@@ -1,22 +1,21 @@
-#include <iostream>
+#include <iostream> 
 
-using namespace std;
+using namespace std; 
 
-bool pow_of_two(int n) {
-    if (n == 0)
-        return 0;
-    while (n != 1) {
-        if (n % 2 != 0)
-            return 0;
-        n = n / 2;
-    }
-    return 1;
+void pow_of_two(int n) { 
+    if(n==1) { 
+        cout<<"YES"; return; 
+    } else if(n%2==1) { 
+        cout<<"NO"; 
+        return; 
+    } 
+    pow_of_two(n/2);
+    cout<<"0"<<endl; 
 }
 
-int main() {
+int main(){ 
     int a;
-    cin >> a;
-    pow_of_two(a) ? cout << "YES\n" : cout << "NO\n";
-    return 0;
-}
+    cin>>a; 
+    pow_of_two(a); 
+} 
 //time complexity: O(logn)
