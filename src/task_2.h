@@ -10,7 +10,6 @@ void pow_of_two(int n) {
         return; 
     } 
     pow_of_two(n/2);
-    cout<<"0"<<endl; 
 }
 
 int main(){ 
