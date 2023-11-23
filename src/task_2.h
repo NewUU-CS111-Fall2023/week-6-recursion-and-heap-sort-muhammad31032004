@@ -19,4 +19,4 @@ int main() {
     pow_of_two(a) ? cout << "YES\n" : cout << "NO\n";
     return 0;
 }
-//time complexity O(logn)
+//time complexity: O(logn)
