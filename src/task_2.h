@@ -13,10 +13,10 @@ bool pow_of_two(int n) {
     return 1;
 }
 
-// Driver code
 int main() {
     int a;
     cin >> a;
     pow_of_two(a) ? cout << "YES\n" : cout << "NO\n";
     return 0;
 }
+//time complexity O(logn)
